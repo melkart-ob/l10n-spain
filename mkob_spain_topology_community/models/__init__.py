@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from . import autonomous_community
+from . import state_group
 
 

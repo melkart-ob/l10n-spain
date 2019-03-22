@@ -7,9 +7,9 @@
     'description': """
        Spain Topology Community
     """,
-    "category": "Website",
-    "website": "https://melkart-ob.com/",
-    "author": "Melkart",
+    "category": "Localisation",
+    "website": "https://melkart.io/",
+    "author": "Melkart O&B",
     "license": "LGPL-3",
     'depends': [
     ],
@@ -19,6 +19,7 @@
         'security/ir.model.access.csv',
         'views/autonomous_community.xml',
         'views/base_menu.xml',
+        'data/groups.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
