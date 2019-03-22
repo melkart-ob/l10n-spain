@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <!-- Autonomous Community Views-->
+        <record id="mkob_spain_topology_community_autonomous_community_action" model="ir.actions.act_window">
+            <field name="name">Autonomous Community</field>
+            <field name="res_model">mkob_spain_topology_community.autonomous.community</field>
+            <field name="view_type">form</field>
+            <field name="domain">[]</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <record id="mkob_spain_topology_community_autonomous_community_tree" model="ir.ui.view">
+            <field name="name">Autonomous Community Tree</field>
+            <field name="model">mkob_spain_topology_community.autonomous.community</field>
+            <field name="arch" type="xml">
+                <tree string="Autonomous Communities">
+                    <field name="name"/>
+                    <field name="slug"/>
+                    <field name="abbreviation"/>
+                    <field name="country_id"/>
+                    <field name="state_ids"/>
+                </tree>
+            </field>
+        </record>
+        <record id="mkob_spain_topology_community_autonomous_community_form" model="ir.ui.view">
+            <field name="name">Autonomous Community Form</field>
+            <field name="model">mkob_spain_topology_community.autonomous.community</field>
+            <field name="arch" type="xml">
+                <form string="Autonomous Community">
+                    <sheet>
+                        <group col="3">
+                            <group col="1">
+                                <field name="name"/>
+                            </group>
+                            <group col="1">
+                                <field name="slug"/>
+                            </group>
+                            <group col="1">
+                                <field name="abbreviation"/>
+                            </group>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="state_ids" mode="tree">
+                                    <tree string="State">
+                                        <field name="name"/>
+                                        <field name="code"/>
+                                    </tree>
+                                </field>
+                            </group>
+                            <group>
+                                <field name="country_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="mkob_spain_topology_community_autonomous_community_search" model="ir.ui.view">
+            <field name="name">Autonomous Community Tree</field>
+            <field name="model">mkob_spain_topology_community.autonomous.community</field>
+            <field name="arch" type="xml">
+                <search string="Search">
+                    <field name="name" string="Name" filter_domain="[('name','ilike',self)]"/>
+                    <field name="slug" string="Slug" filter_domain="[('slug','ilike',self)]"/>
+                    <field name="abbreviation" string="Abbreviation" filter_domain="[('abbreviation','ilike',self)]"/>
+                    <field name="country_id" string="Country" filter_domain="[('country_id.name','ilike',self)]"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>

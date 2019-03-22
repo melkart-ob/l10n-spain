@@ -1,0 +1,110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mkob_spain_topology_community
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-19 03:25+0000\n"
+"PO-Revision-Date: 2019-03-18 23:26-0400\n"
+"Last-Translator: Rodolfo Alvarez García <rodolfoalv89@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__abbreviation
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
+msgid "Abbreviation"
+msgstr "Abreviatura"
+
+#. module: mkob_spain_topology_community
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_tree
+msgid "Autonomous Communities"
+msgstr "C. Autónomas"
+
+#. module: mkob_spain_topology_community
+#: model:ir.actions.act_window,name:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_action
+#: model:ir.model,name:mkob_spain_topology_community.model_mkob_spain_topology_community_autonomous_community
+#: model:ir.ui.menu,name:mkob_spain_topology_community.menu_item_topology_autonomous_community
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_form
+msgid "Autonomous Community"
+msgstr "C. Autónoma"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__country_id
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
+msgid "Country"
+msgstr "País"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__name
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
+msgid "Name"
+msgstr "Nombre"
+
+#. module: mkob_spain_topology_community
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__slug
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
+msgid "Slug"
+msgstr ""
+
+#. module: mkob_spain_topology_community
+#: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_form
+msgid "State"
+msgstr "Provincia"
+
+#. module: mkob_spain_topology_community
+#: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__state_ids
+msgid "States"
+msgstr "Provincias"
+
+#. module: mkob_spain_topology_community
+#: model:ir.ui.menu,name:mkob_spain_topology_community.menu_item_topology
+msgid "Topology"
+msgstr "Topología"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <!-- Autonomous Community Menu-->
+        <menuitem id="menu_item_topology" parent="base.menu_custom" sequence="32"
+                  name="Topology" groups="base.group_no_one"/>
+        <menuitem id="menu_item_topology_autonomous_community" parent="menu_item_topology" sequence="1"
+                  name="Autonomous Community" action="mkob_spain_topology_community_autonomous_community_action"/>
+    </data>
+</odoo>
