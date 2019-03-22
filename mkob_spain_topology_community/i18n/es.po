@@ -91,8 +91,8 @@ msgstr "Búsqueda"
 #. module: mkob_spain_topology_community
 #: model:ir.model.fields,field_description:mkob_spain_topology_community.field_mkob_spain_topology_community_autonomous_community__slug
 #: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_search
-msgid "Slug"
-msgstr ""
+msgid "Code"
+msgstr "Código"
 
 #. module: mkob_spain_topology_community
 #: model_terms:ir.ui.view,arch_db:mkob_spain_topology_community.mkob_spain_topology_community_autonomous_community_form
